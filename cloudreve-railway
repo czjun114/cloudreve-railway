@@ -1,6 +1,0 @@
-FROM ghcr.io/cloudreve/cloudreve:latest
-
-ENV PORT $PORT
-EXPOSE $PORT
-
-CMD ["./cloudreve"]
